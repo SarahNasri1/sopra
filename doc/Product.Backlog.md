@@ -4,16 +4,16 @@ Hier werden **alle** Anforderungen in Form von **User Stories** geordnet aufgeli
 
 ## Epic 1 *Titel*
 
-> Als *Rolle* möchte ich *Ziel/Wunsch*, um *Nutzen*.
+> Als *Vertriebler* möchte ich *Namen aufzeichnen und abspielen können*, um *die Aussprache zu erlernen*.
 
 ### Feature *Titel*
 
-> Als *Rolle* möchte ich *Ziel/Wunsch*, um *Nutzen*.
+> Als *Vertriebler* möchte ich *Namen aufzeichnen können*, um *sie wieder abspielen zu können*.
 
 - Aufwandsschätzung: [XS, S, M, L, XL]
 - Akzeptanztests:
-    - TODO
-    - TODO
+    - Stimme wird aufgezeichnet
+    - Aufgezeichnete Stimme wird persistent gespeichert
     - TODO
 
 #### Implementable Story *Titel*
