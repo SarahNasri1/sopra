@@ -72,7 +72,7 @@ Hier werden **alle** Anforderungen in Form von **User Stories** geordnet aufgeli
 
 ### Feature 2 *Titel*
 
-> Als *Rolle* möchte ich *Ziel/Wunsch*, um *Nutzen*.
+> Als *Vertriebler* möchte ich *Aufzeichnungen persistent speichern können*, um *sie jederzeit verfügbar zu haben*.
 
 - Aufwandsschätzung: [XS, S, M, L, XL]
 - Akzeptanztests:
@@ -134,8 +134,23 @@ Hier werden **alle** Anforderungen in Form von **User Stories** geordnet aufgeli
 - Aufwandsschätzung: [0-24] Stunden
 - Tatsächliche Zeit: [0-72] Stunden
 
-## Epic 2 *Titel*
+## Epic 2 *Grafische Benutzeroberfläche*
 
-> Als *Rolle* möchte ich *Ziel/Wunsch*, um *Nutzen*.
+> Als *Vertriebler* möchte ich *eine grafische Benutzeroberfläche*, um *die App bedienen zu können*.
 
-*Wie bei Epic 1*
+
+### Feature 1 *Suche*
+
+> Als *Vertriebler* möchte ich *die Möglichkeit nach Aufzeichnungen zu suchen*, um *die Aussprache(n) eines Namens finden zu können*.
+
+### Feature 2 *Verwaltung*
+
+> Als *Vertriebler* möchte ich *die Möglichkeit haben Aufzeichnungen hinzuzufügen oder zu löschen*.
+
+### Feature 3 *Einstellungen*
+
+> Als *Vertriebler* möchte ich ein Einstellungsmenü um Einstellungen vorzunehmen, wie z.B. die Wahl der Sprache in der die App dargestellt wird.
+
+- Aufwandsschätzung: S
+- Akzeptanztests:
+    - Einstellungen lassen sich vornehmen und speichern
