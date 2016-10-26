@@ -2,137 +2,41 @@
 
 Hier werden **alle** Anforderungen in Form von **User Stories** geordnet aufgelistet.
 
-## Epic 1 *Titel*
+## Epic 1 *Stimme aufzeichnen / abspielen*
 
 > Als *Vertriebler* möchte ich *Namen aufzeichnen und abspielen können*, um *die Aussprache zu erlernen*.
 
-### Feature *Titel*
+### Feature 1 *Aufnahme*
 
 > Als *Vertriebler* möchte ich *Namen aufzeichnen können*, um *sie wieder abspielen zu können*.
 
-- Aufwandsschätzung: [XS, S, M, L, XL]
+- Aufwandsschätzung: M
 - Akzeptanztests:
     - Stimme wird aufgezeichnet
-    - Aufgezeichnete Stimme wird persistent gespeichert
-    - TODO
 
-#### Implementable Story *Titel*
-> Als *Rolle* möchte ich *Ziel/Wunsch*, um *Nutzen*.
+### Feature 2 *Wiedergabe*
 
-- Aufwandsschätzung: [0-100] Story Points
+> Als *Vertriebler* möchte ich *Namen abspielen können*, um *die Aussorache zu üben*.
+
+- Aufwandsschätzung: M
 - Akzeptanztests:
-    - TODO
-    - TODO
-    - TODO
+	- Aufnahme wird korrekt wiedergegeben
 
-##### Task *Titel*
-> Als *Rolle* möchte ich *Ziel/Wunsch*, um *Nutzen*.
-
-- Aufwandsschätzung: [0-24] Stunden
-- Tatsächliche Zeit: [0-72] Stunden
-
-##### Task 2 *Titel*
-> Als *Rolle* möchte ich *Ziel/Wunsch*, um *Nutzen*.
-
-- Aufwandsschätzung: [0-24] Stunden
-- Tatsächliche Zeit: [0-72] Stunden
-
-##### Task 3 *Titel*
-> Als *Rolle* möchte ich *Ziel/Wunsch*, um *Nutzen*.
-
-- Aufwandsschätzung: [0-24] Stunden
-- Tatsächliche Zeit: [0-72] Stunden
-
-#### Implementable Story 2 *Titel*
-> Als *Rolle* möchte ich *Ziel/Wunsch*, um *Nutzen*.
-
-- Aufwandsschätzung: [0-100] Story Points
-- Akzeptanztests:
-    - TODO
-    - TODO
-    - TODO
-
-##### Task *Titel*
-> Als *Rolle* möchte ich *Ziel/Wunsch*, um *Nutzen*.
-
-- Aufwandsschätzung: [0-24] Stunden
-- Tatsächliche Zeit: [0-72] Stunden
-
-##### Task 2 *Titel*
-> Als *Rolle* möchte ich *Ziel/Wunsch*, um *Nutzen*.
-
-- Aufwandsschätzung: [0-24] Stunden
-- Tatsächliche Zeit: [0-72] Stunden
-
-##### Task 3 *Titel*
-> Als *Rolle* möchte ich *Ziel/Wunsch*, um *Nutzen*.
-
-- Aufwandsschätzung: [0-24] Stunden
-- Tatsächliche Zeit: [0-72] Stunden
-
-### Feature 2 *Titel*
+### Feature 3 *Persistenz*
 
 > Als *Vertriebler* möchte ich *Aufzeichnungen persistent speichern können*, um *sie jederzeit verfügbar zu haben*.
 
-- Aufwandsschätzung: [XS, S, M, L, XL]
+- Aufwandsschätzung: L
 - Akzeptanztests:
-    - TODO
-    - TODO
-    - TODO
+    - Aufnahmen werden dauerhaft gespeichert
 
-#### Implementable Story *Titel*
-> Als *Rolle* möchte ich *Ziel/Wunsch*, um *Nutzen*.
+### Feature 4 *Aufnahme bearbeiten*
 
-- Aufwandsschätzung: [0-100] Story Points
+> Als *Vertriebler* möchte ich *die Aufnahme bearbeiten, z.B. schneiden, können*, um *sie zu optimieren*.
+
+- Aufwandsschätzung: L
 - Akzeptanztests:
-    - TODO
-    - TODO
-    - TODO
-
-##### Task *Titel*
-> Als *Rolle* möchte ich *Ziel/Wunsch*, um *Nutzen*.
-
-- Aufwandsschätzung: [0-24] Stunden
-- Tatsächliche Zeit: [0-72] Stunden
-
-##### Task 2 *Titel*
-> Als *Rolle* möchte ich *Ziel/Wunsch*, um *Nutzen*.
-
-- Aufwandsschätzung: [0-24] Stunden
-- Tatsächliche Zeit: [0-72] Stunden
-
-##### Task 3 *Titel*
-> Als *Rolle* möchte ich *Ziel/Wunsch*, um *Nutzen*.
-
-- Aufwandsschätzung: [0-24] Stunden
-- Tatsächliche Zeit: [0-72] Stunden
-
-#### Implementable Story 2 *Titel*
-> Als *Rolle* möchte ich *Ziel/Wunsch*, um *Nutzen*.
-
-- Aufwandsschätzung: [0-100] Story Points
-- Akzeptanztests:
-    - TODO
-    - TODO
-    - TODO
-
-##### Task *Titel*
-> Als *Rolle* möchte ich *Ziel/Wunsch*, um *Nutzen*.
-
-- Aufwandsschätzung: [0-24] Stunden
-- Tatsächliche Zeit: [0-72] Stunden
-
-##### Task 2 *Titel*
-> Als *Rolle* möchte ich *Ziel/Wunsch*, um *Nutzen*.
-
-- Aufwandsschätzung: [0-24] Stunden
-- Tatsächliche Zeit: [0-72] Stunden
-
-##### Task 3 *Titel*
-> Als *Rolle* möchte ich *Ziel/Wunsch*, um *Nutzen*.
-
-- Aufwandsschätzung: [0-24] Stunden
-- Tatsächliche Zeit: [0-72] Stunden
+    - Aufnahme kann bearbeitet werden
 
 ## Epic 2 *Grafische Benutzeroberfläche*
 
@@ -141,7 +45,7 @@ Hier werden **alle** Anforderungen in Form von **User Stories** geordnet aufgeli
 
 ### Feature 1 *Suche*
 
-> Als *Vertriebler* möchte ich *die Möglichkeit nach Aufzeichnungen zu suchen*, um *die Aussprache(n) eines Namens finden zu können*.
+> Als *Vertriebler* möchte ich *die Möglichkeit haben, nach Aufzeichnungen zu suchen*, um *die Aussprache(n) eines Namens finden zu können*.
 
 ### Feature 2 *Verwaltung*
 
@@ -154,3 +58,35 @@ Hier werden **alle** Anforderungen in Form von **User Stories** geordnet aufgeli
 - Aufwandsschätzung: S
 - Akzeptanztests:
     - Einstellungen lassen sich vornehmen und speichern
+
+### Feature 4 *Favoriten*
+
+> Als *Vertriebler* möchte ich *Namen favorisieren können*, um *sie schneller wiederzufinden*.
+
+- Aufwandsschätzung: S
+- Akzeptanztests:
+    - Favoriten werden gespeichert und können ausgewählt werden
+
+### Feature 5 *Lautschrift*
+
+> Als *Vertriebler* möchte ich *die Lautschrift eines Namens sehen*, um *sie zu üben*.
+
+- Aufwandsschätzung: L
+- Akzeptanztests:
+    - ?
+
+### Feature 6 *Sortierung*
+
+> Als *Vertriebler* möchte ich *die Nammen nach verschiedenen Kriterien sortieren können*, um *sie leichter zu finden*.
+
+- Aufwandsschätzung: M
+- Akzeptanztests:
+    - Daten werden entsprechend der Sortierung angezeigt
+
+### Feature 7 *Backup*
+
+> Als *Vertriebler* möchte ich *ein Backup der aufgezeichneten Daten erstellen können*, um *Datenverlust vorzubeugen*.
+
+- Aufwandsschätzung: S
+- Akzeptanztests:
+    - Alle Daten sind im Backup vorhanden und können ohne Verlust wiederhergestellt werden
