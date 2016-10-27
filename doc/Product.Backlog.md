@@ -1,7 +1,5 @@
 # Product Backlog
 
-Hier werden **alle** Anforderungen in Form von **User Stories** geordnet aufgelistet.
-
 ## Epic 1 *Stimme aufzeichnen / abspielen*
 
 > Als *Vertriebler* möchte ich *Namen aufzeichnen und abspielen können*, um *die Aussprache zu erlernen*.
@@ -16,7 +14,7 @@ Hier werden **alle** Anforderungen in Form von **User Stories** geordnet aufgeli
 
 ### Feature 2 *Wiedergabe*
 
-> Als *Vertriebler* möchte ich *Namen abspielen können*, um *die Aussorache zu üben*.
+> Als *Vertriebler* möchte ich *Namen abspielen können*, um *die Aussprache zu üben*.
 
 - Aufwandsschätzung: M
 - Akzeptanztests:
@@ -47,9 +45,18 @@ Hier werden **alle** Anforderungen in Form von **User Stories** geordnet aufgeli
 
 > Als *Vertriebler* möchte ich *die Möglichkeit haben, nach Aufzeichnungen zu suchen*, um *die Aussprache(n) eines Namens finden zu können*.
 
+- Aufwandsschätzung: M
+- Akzeptanztests:
+    - Aufzeichnungen werden entsprechend der Suchkriterien gefunden
+
 ### Feature 2 *Verwaltung*
 
 > Als *Vertriebler* möchte ich *die Möglichkeit haben Aufzeichnungen hinzuzufügen oder zu löschen*.
+
+- Aufwandsschätzung: M
+- Akzeptanztests:
+    - Aufzeichnungen können hinzugefügt werden
+    - Aufzeichnungen können gelöscht werden
 
 ### Feature 3 *Einstellungen*
 
@@ -57,15 +64,30 @@ Hier werden **alle** Anforderungen in Form von **User Stories** geordnet aufgeli
 
 - Aufwandsschätzung: S
 - Akzeptanztests:
-    - Einstellungen lassen sich vornehmen und speichern
+    - Einstellungen lassen sich vornehmen
+    - Einstellungen lassen sich speichern
 
-### Feature 4 *Favoriten*
+### Feature 4 *Benutzeranpassung*
 
-> Als *Vertriebler* möchte ich *Namen favorisieren können*, um *sie schneller wiederzufinden*.
+> Als *Vertriebler* möchte ich *die App meinen Bedürfnissen anpassen*, um *die App für mich übersichtlicher zu gestalten*.
 
-- Aufwandsschätzung: S
+- Aufwandsschätzung: M
 - Akzeptanztests:
-    - Favoriten werden gespeichert und können ausgewählt werden
+    - Alle Akzeptanztests der Implementable Stories sind erfüllt
+
+#### Implementable Story 1 *Favoriten*
+> Als *Vertriebler* möchte ich *Nanem favorisieren können*, um *Einträge schneller zu finden*.
+
+- Akzeptanztests:
+    - Favoriten werden persistent gespeichert
+    - Auf die Favoriten kann schnell zugegriffen werden
+
+#### Implementable Story 2 *Sortierung*
+
+> Als *Vertriebler* möchte ich *die Nammen nach verschiedenen Kriterien sortieren können*, um *sie leichter zu finden*.
+
+- Akzeptanztests:
+    - Daten werden entsprechend der Sortierung angezeigt
 
 ### Feature 5 *Lautschrift*
 
@@ -73,17 +95,9 @@ Hier werden **alle** Anforderungen in Form von **User Stories** geordnet aufgeli
 
 - Aufwandsschätzung: L
 - Akzeptanztests:
-    - ?
+    - Lautschrift wird korrekt dargestellt
 
-### Feature 6 *Sortierung*
-
-> Als *Vertriebler* möchte ich *die Nammen nach verschiedenen Kriterien sortieren können*, um *sie leichter zu finden*.
-
-- Aufwandsschätzung: M
-- Akzeptanztests:
-    - Daten werden entsprechend der Sortierung angezeigt
-
-### Feature 7 *Backup*
+### Feature 6 *Backup*
 
 > Als *Vertriebler* möchte ich *ein Backup der aufgezeichneten Daten erstellen können*, um *Datenverlust vorzubeugen*.
 
