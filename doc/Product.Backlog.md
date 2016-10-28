@@ -2,7 +2,7 @@
 
 ## Epic 1 *Stimme aufzeichnen / abspielen*
 
-> Als *Vertriebler* möchte ich *Namen aufzeichnen und abspielen können*, um *die Aussprache zu erlernen*.
+> Als *Vertriebler* möchte ich *Namen aufzeichnen und abspielen können*, um *die Aussprache zu erlernen*. 
 
 ### Feature 1 *Aufnahme*
 
